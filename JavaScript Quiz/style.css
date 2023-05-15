@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url('2.avif');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+}
+.app{
+    background: #001e4d5d;
+    width:90%;
+    max-width:600px;
+    margin:100px auto 0;
+    padding: 30px;
+    display: block;
+    border-radius: 50px;
+   
+}
+
+.app h1{
+    font-size: 30px;
+    color:#001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 24px;
+    color:#000000;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+
+}
+
+.btn{
+    background: #001e4d65;
+    color:#050505;
+    font-weight: 500;
+    width:100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background: #04296477;
+    color:#fff;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding: 10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#try-btn{
+    background: #990519;
+    color: #fff;
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding: 10px;
+    margin:20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.succses{
+    background-color: green;
+}
+.error{
+    background-color: red;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+.correct{
+    background-color: green;
+
+}
+
+.p_a:before{
+    content: 'A. ';
+}
+
+.p_b:before{
+    content: 'B. ';
+}
+
+.p_c:before{
+    content: 'C. ';
+}
+
+.p_d:before{
+    content: 'D. ';
+}
+
+.result-box{
+    background: #fff;
+    width:90%;
+    max-width:600px;
+    margin:100px auto 0;
+    padding: 30px;
+    display: none;
+    border-radius: 50px;    
+    text-align: center;
+    background:rgba(0,0,0,0.4)url('3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+
+}
+
+.result-box h1{
+    padding:30px 0;
+    
+}
+
